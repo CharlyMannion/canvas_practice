@@ -34,6 +34,14 @@ function draw() {
   context.lineWidth = 4;
   context.stroke();
 
+  context.beginPath();
+  context.arc(100, 200, 50, 0, Math.PI*2, true);
+  context.closePath();
+  context.lineWidth = 8;
+  context.stroke();
+  context.fillStyle = 'blue';
+  context.fill()
+
  //draw items
 }
 
