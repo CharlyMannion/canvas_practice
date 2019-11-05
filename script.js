@@ -28,6 +28,12 @@ function draw() {
 
   context.stroke();
 
+  context.beginPath();
+  context.arc(200, 100, 50, 0, Math.PI*2, true);
+  context.closePath();
+  context.lineWidth = 4;
+  context.stroke();
+
  //draw items
 }
 
