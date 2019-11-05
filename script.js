@@ -9,8 +9,11 @@ function draw() {
  context.lineWidth = 3;
 
  context.strokeRect(300, 100, 50, 100);
-
  context.fillRect(100, 100, 50, 100);
+
+ context.moveTo(0,300);
+ context.lineTo(400,500);
+ context.stroke();
 
  //draw items
 }
