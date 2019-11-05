@@ -15,6 +15,19 @@ function draw() {
  context.lineTo(400,500);
  context.stroke();
 
+ context.beginPath();
+
+  context.lineWidth = 1;
+  context.strokeStyle = 'purple';
+
+  context.moveTo(0,0);
+  context.lineTo(0,200);
+  context.lineTo(200,200);
+  context.lineTo(200,0);
+  context.lineTo(0,0);
+
+  context.stroke();
+
  //draw items
 }
 
